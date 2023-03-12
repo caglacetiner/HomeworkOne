@@ -1,0 +1,63 @@
+---
+title: "Homework 1"
+author: Çağla Çetiner 19080388
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+The oldest known pet **cat** existed 9500 years ago.
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+Cats spend 70% of their lives *sleeping*.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+A cat was the Mayor of an ***Alaskan*** town for 20 years.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+##### A few of your cat's favorite things
+
+\* Cats love sleeping and napping.<br> \* Cats need to scratch.<br> \* Cats love high places for watching and hiding.<br>
+
+**Question 5** With Markdown write an ordered list with three items.
+
+##### How Cats Choose Their Favorite Human
+
+1.spend more time with them.<br> 2.match thie interests.<br> 3.talk to them.<br>
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+If you are wondering more, you can check [this page.](https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats)
+
+**Question 7** With Markdown add a cat picture.
+
+![](images/kedii%20(1)-02.jpeg){width="307"}
+
+[one of our street cats]{style="color: red;"}
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+x <- 82
+sqrt(9) + x/2 + 4^4
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.$$
+f(n) = n^6 + 2n^5 + 6 |_{n=5}
+$$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3+4
+```
